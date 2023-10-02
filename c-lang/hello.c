@@ -16,6 +16,12 @@ int main(int argc, char *argv[])
     char c = 0xA0;
     double d = 7.4e14;
 
+    unsigned int e = 0x7FFFFFFF;
+
+    //int d = 89;
+
+    printf("d = %d\n", d);
+
 
     return 0;
 }
