@@ -58,6 +58,7 @@ int main(void)
 
 	// parameter passing
 	processStuff(&myStuff);
+	processStuffDirectly(myStuff);
 
 	Person scot = {"Scot",11};
 	printf("scot's name == %s\n",scot.name);
