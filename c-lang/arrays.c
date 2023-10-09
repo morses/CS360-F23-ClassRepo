@@ -97,4 +97,9 @@ int main(int argc, char *argv[])
         printf("%d ",name[i]);
     }
 
+    free(pi);
+        pi = NULL;
+    free(pcar);
+        pcar = NULL;
+
 }
