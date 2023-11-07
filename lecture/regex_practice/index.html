@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Text File</title>
+</head>
+<body>
+    <h1>Displaying the contents of a text file</h1>
+    
+
+    <input type="file" id="fileInput" accept=".txt" onchange="displayFileContents()">
+
+    <p>Regular expression output: </p>
+    <p id="output"></p>
+
+    <pre id="fileContents"></pre>
+
+    <script>
+        function displayFileContents() {
+            const fileInput = document.getElementById('fileInput');
+            const fileContentsElement = document.getElementById('fileContents');
+
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                fileContentsElement.textContent = e.target.result;
+            };
+
+            if (file) {
+                reader.readAsText(file);
+            }
+        }
+    </script>
+</body>
+</html>

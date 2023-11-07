@@ -1,0 +1,21 @@
+{
+    "response":
+    { "players":[
+        {"steamid":"76561198069530799",
+        "communityvisibilitystate":3,
+        "profilestate":1,
+        "personaname":"OneSnazzyBastard",
+        "profileurl":"https://steamcommunity.com/id/OnSnBa/",
+        "avatar":"https://avatars.akamai.steamstatic.com/84fb166f980af347048b5c346fa54a8105ea39d8.jpg",
+        "avatarmedium":"https://avatars.akamai.steamstatic.com/84fb166f980af347048b5c346fa54a8105ea39d8_medium.jpg",
+        "avatarfull":"https://avatars.akamai.steamstatic.com/84fb166f980af347048b5c346fa54a8105ea39d8_full.jpg",
+        "avatarhash":"84fb166f980af347048b5c346fa54a8105ea39d8",
+        "lastlogoff":1677657694,
+        "personastate":0,
+        "realname":"Seth",
+        "primaryclanid":"103582791435684255",
+        "timecreated":1345247297,
+        "personastateflags":0}
+        ]
+    }
+}

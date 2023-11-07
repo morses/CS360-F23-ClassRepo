@@ -1,0 +1,8 @@
+equation -> expression                                           relop expression EOF
+         -> multiplyingExpression     PLUS multiplyingExpression relop expression EOF
+         -> powExpression             PLUS multiplyingExpression relop expression EOF
+         -> signedAtom POW signedAtom PLUS multiplyingExpression relop expression EOF
+         -> atom       POW signedAtom PLUS multiplyingExpression relop expression EOF
+         -> constant   POW signedAtom PLUS multiplyingExpression relop expression EOF
+         -> PI         POW signedAtom PLUS multiplyingExpression relop expression EOF
+         -> 'pi'       POW signedAtom PLUS multiplyingExpression relop expression EOF

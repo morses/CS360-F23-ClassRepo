@@ -1,0 +1,1 @@
+Words file is from: [https://github.com/dwyl/english-words/tree/master](https://github.com/dwyl/english-words/tree/master)
