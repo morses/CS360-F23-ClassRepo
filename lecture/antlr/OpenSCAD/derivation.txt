@@ -1,0 +1,9 @@
+prog -> input
+        unit
+        statement
+        module_instantiation
+        IDENTIFIER '(' arg_call_list ')' statement
+        1 '(' arg_call_list ')' statement
+        1 '(' arg_call ')' statement
+        1 '(' expr ')' statement
+        1 '(' + expr ')' statement
